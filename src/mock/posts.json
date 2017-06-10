@@ -1,0 +1,16 @@
+{
+  "Post One": {
+    "title": "Post One",
+    "description": "Welcome to the Spaceman blog!"
+  },
+  
+  "Post Two": {
+    "title": "Post two",
+    "description": "Here at Spaceman, we make beer."
+  },
+  
+  "Post Three": {
+    "title": "Post three",
+    "description": "Continuing to refine our beer making process."
+  }
+}
