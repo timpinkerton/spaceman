@@ -1,0 +1,21 @@
+extends ./layout.pug
+block content
+    .container
+      // Main component for a primary marketing message or call to action
+      .jumbotron
+        h1 Welcome to Spaceman Brewery
+        p
+          | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam suscipit ut nibh nec facilisis. Suspendisse potenti. Mauris pretium non felis at accumsan. Curabitur vitae enim in justo commodo finibus. Quisque ut quam libero. Nam finibus tempus ipsum, vel sagittis erat mollis nec. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+        p
+          | Aliquam erat volutpat. Vivamus hendrerit tellus fringilla ligula porta volutpat. Etiam consequat enim eget gravida blandit. Quisque dignissim lorem est, eu ultrices felis ornare at. Nunc luctus ultrices dapibus.
+        // /container
+        //
+          Bootstrap core JavaScript
+          ==================================================
+        // Placed at the end of the document so the pages load faster
+      script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js')
+      script.
+        window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\\/script>')
+      script(src='../../dist/js/bootstrap.min.js')
+      // IE10 viewport hack for Surface/desktop Windows 8 bug
+      script(src='../../assets/js/ie10-viewport-bug-workaround.js')

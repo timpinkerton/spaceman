@@ -1,8 +1,5 @@
-doctype html
-html(lang="en")
-  head
-    title #{post.title}
-  body
+extends ./layout.pug
+block content
     section.post 
     h1 #{post.title}
     p.class1 #{post.description}
